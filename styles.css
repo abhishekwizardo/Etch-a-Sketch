@@ -1,0 +1,95 @@
+    @import url('https://fonts.googleapis.com/css2?family=Baloo+Chettan+2&family=Calligraffitti&display=swap');
+
+    *{
+        margin:0px; 
+        padding:0px; 
+    }
+
+    body{
+        background:#6868ac; 
+    }
+
+    .header{
+        height: 150px; 
+        font-family: 'Calligraffitti', cursive;
+        font-weight: 700;
+        font-size: 100px;
+        text-shadow: -15px 5px 20px #ced0d3;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #F9f1cc;
+        text-shadow: 2px 4px 0px #FFB650, 
+            6px 6px 0px #FFD662, 
+            8px 8px 0px  #FF80BF, 
+            10px 10px 0px #EF5097, 
+            12px 12px 0px #6868AC, 
+            14px 14px 0px #90B1E0;
+    }
+
+    .container{
+        display: flex;
+        align-items: center;
+    }
+
+
+    .menu{
+        background: white;
+        height:200px; 
+        width:300px; 
+        margin:100px; 
+        border-radius: 20px;
+    }
+
+    .title{
+        text-align: center; 
+    }
+
+    #squares{
+        width:40%; 
+    }
+
+    .control{
+        font-size:18px;
+        padding:10px;
+    }
+
+    #slider{
+        color:#6868AC; 
+        background: #6868AC;
+        border-color: #6868ac;
+    }
+
+
+    .white{
+        height:520px; 
+        width:520px; 
+        margin:0px 20px; 
+        background: white;
+        box-shadow: 6px 6px 0px rgb(43, 42, 42);
+        display: flex;
+        flex-wrap:wrap; 
+    }
+    
+
+    .cell{
+        box-sizing: border-box; 
+    }
+
+    .cell:hover{
+        background-color: #6868ac;
+    }
+
+    #name{
+        text-align: right;
+        color: #F9f1cc;
+        font-size: 18px;
+    }
+
+    input[type="checkbox"]{
+        margin:2px; 
+    }
+
+    #output{
+        font-size: 18px;
+    }
+    
